@@ -7,7 +7,7 @@ const port = process.env.PORT ?? 3000;
 app.use(express.json());
 app.use(cookieParser());
 // app.use(cors({ origin: "http://localhost:5173", credentials: true }))
-app.use(cors({ origin: "https://musicappbackend-hn0z-dev.fl0.io/", credentials: true }))
+app.use(cors({ origin: "https://64eeadf8a59a1121219b5b4f--cute-kitten-a43458.netlify.app", credentials: true }));
 
 const { authMiddleWare } = require("./middleware/auth.middleware");
 const userRoutes = require("./routes/user.routes");
